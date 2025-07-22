@@ -1,4 +1,4 @@
-FinTrack – Crypto Portfolio Tracker
+#FinTrack – Crypto Portfolio Tracker
 
 FinTrack is a modern cryptocurrency tracking and portfolio management application built with React, TypeScript, Tailwind CSS, and Vite. It provides real-time price tracking, personal wallet insights, P&L calculations, and interactive charts to help users stay informed on market trends.
 
@@ -102,3 +102,4 @@ License
 
 This project is licensed under the MIT License.
 See the LICENSE file for details.
+⸻
