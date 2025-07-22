@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+FinTrack – Crypto Portfolio Tracker
 
-## Project info
+FinTrack is a modern cryptocurrency tracking and portfolio management application built with React, TypeScript, Tailwind CSS, and Vite. It provides real-time price tracking, personal wallet insights, P&L calculations, and interactive charts to help users stay informed on market trends.
 
-**URL**: https://lovable.dev/projects/8665ed3a-2a5f-4aa2-a058-ab4b31355267
+⸻
 
-## How can I edit this code?
+Features
+	•	Real-time crypto price tracking using CoinGecko API
+	•	Add and manage personal wallets
+	•	Portfolio summary with profit/loss calculation
+	•	Interactive price charts and historical data
+	•	Dark mode with persistent theme storage
+	•	Responsive UI for mobile and desktop
 
-There are several ways of editing your application.
+⸻
 
-**Use Lovable**
+Tech Stack
+	•	Frontend: React, TypeScript, Vite
+	•	Styling: Tailwind CSS, shadcn-ui
+	•	Charting: Recharts or Chart.js
+	•	API: CoinGecko Public API
+	•	Storage: localStorage (for persistent user data)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8665ed3a-2a5f-4aa2-a058-ab4b31355267) and start prompting.
+⸻
 
-Changes made via Lovable will be committed automatically to this repo.
+Project Structure
 
-**Use your preferred IDE**
+fintrack/
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Route-based views
+│   ├── hooks/              # Custom React hooks
+│   ├── utils/              # Helper functions
+│   ├── App.tsx             # Root app component
+│   └── main.tsx            # Entry point
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+⸻
 
-Follow these steps:
+Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Prerequisites
+	•	Node.js (v18 or later)
+	•	npm or yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Setup Instructions
+	1.	Clone the repository
 
-# Step 3: Install the necessary dependencies.
-npm i
+git clone https://github.com/ShinyPhoenix000/FinTrack.git
+cd FinTrack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+	2.	Install dependencies
+
+npm install
+# or
+yarn install
+
+	3.	Run the development server
+
 npm run dev
-```
+# or
+yarn dev
 
-**Edit a file directly in GitHub**
+	4.	Open in browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Navigate to http://localhost:5173 to view the app.
 
-**Use GitHub Codespaces**
+⸻
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Build for Production
 
-## What technologies are used for this project?
+npm run build
+npm run preview
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+⸻
 
-## How can I deploy this project?
+Deployment Options
 
-Simply open [Lovable](https://lovable.dev/projects/8665ed3a-2a5f-4aa2-a058-ab4b31355267) and click on Share -> Publish.
+You can deploy the build output (/dist) to platforms like:
+	•	Vercel
+	•	Netlify
+	•	Firebase Hosting
+	•	GitHub Pages
 
-## Can I connect a custom domain to my Lovable project?
+Ensure you configure environment variables if you use paid APIs or services.
 
-Yes, you can!
+⸻
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Notes
+	•	This project does not use any backend—data is fetched from the CoinGecko API and stored locally.
+	•	API rate limits may apply based on CoinGecko usage.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+⸻
+
+License
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
