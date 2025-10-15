@@ -3,6 +3,9 @@
 FinTrack is a modern cryptocurrency tracking and portfolio management application built with React, TypeScript, Tailwind CSS, and Vite. It provides real-time price tracking, personal wallet insights, P&L calculations, and interactive charts to help users stay informed on market trends.  
 
 ⸻
+![Dashboard View](FintrackDashboard.png)
+![Wallet View](Fintrack2.png)
+
 
 Features  
 	•	Real-time crypto price tracking using CoinGecko API  
